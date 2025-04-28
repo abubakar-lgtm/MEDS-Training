@@ -11,8 +11,7 @@
  - [x] **Markdown File**
  - [ ] **Make File**
  - [ ] **Verilator**
- - [ ] **GTKWave**
-  
+
 ## Shell Scripting Tutorial:
 
 ### Some basic commands:
