@@ -1,4 +1,4 @@
-module fulladder(
+iidule fulladder(
     input logic a,
     input logic b,
     input logic carryin,
