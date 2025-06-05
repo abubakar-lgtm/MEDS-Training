@@ -1,5 +1,5 @@
 #include <verilated.h>
-#include "Vsqrt_bs.h"
+#include "Vsqrt.h"
 #include <iostream>
 #include <cmath>
 
@@ -9,7 +9,7 @@
 int main(int argc, char** argv) {
     Verilated::commandArgs(argc, argv);
 
-    Vsqrt_bs* top = new Vsqrt_bs;
+    Vsqrt* top = new Vsqrt;
 
     // Test values for square root calculation
     for (float i = 1.0f; i <= 25.0f; i++) {
